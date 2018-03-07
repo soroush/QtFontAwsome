@@ -14,7 +14,7 @@ document-properties		action	The icon for the action to view the properties of a 
 document-revert		action	The icon for the action of reverting to a previous version of a document.
 document-save	save	action	The icon for the save action. Should be an arrow pointing down and toward a hard disk.
 document-save-as		action	The icon for the save as action.
-document-send		action	The icon for the send action. Should be an arrow pointing up and away from a hard disk.
+document-send	upload 	action	The icon for the send action. Should be an arrow pointing up and away from a hard disk.
 edit-clear		action	The icon for the clear action.
 edit-copy	copy	action	The icon for the copy action.
 edit-cut	cut	action	The icon for the cut action.
@@ -25,47 +25,47 @@ edit-paste	paste	action	The icon for the paste action.
 edit-redo	redo	action	The icon for the redo action.
 edit-select-all		action	The icon for the select all action.
 edit-undo	undo	action	The icon for the undo action.
-folder-new		action	The icon for creating a new folder.
+folder-new	folder-open 	action	The icon for creating a new folder.
 format-indent-less	outdent	action	The icon for the decrease indent formatting action.
 format-indent-more	indent	action	The icon for the increase indent formatting action.
-format-justify-center		action	The icon for the center justification formatting action.
-format-justify-fill		action	The icon for the fill justification formatting action.
-format-justify-left		action	The icon for the left justification formatting action.
-format-justify-right		action	The icon for the right justification action.
+format-justify-center	align-justify 	action	The icon for the center justification formatting action.
+format-justify-fill	align-justify 	action	The icon for the fill justification formatting action.
+format-justify-left	align-justify 	action	The icon for the left justification formatting action.
+format-justify-right	align-justify 	action	The icon for the right justification action.
 format-text-direction-ltr		action	The icon for the left-to-right text formatting action.
 format-text-direction-rtl		action	The icon for the right-to-left formatting action.
-format-text-bold		action	The icon for the bold text formatting action.
-format-text-italic		action	The icon for the italic text formatting action.
-format-text-underline		action	The icon for the underlined text formatting action.
-format-text-strikethrough		action	The icon for the strikethrough text formatting action.
-go-bottom		action	The icon for the go to bottom of a list action.
-go-down		action	The icon for the go down in a list action.
-go-first		action	The icon for the go to the first item in a list action.
+format-text-bold	bold 	action	The icon for the bold text formatting action.
+format-text-italic	italic	action	The icon for the italic text formatting action.
+format-text-underline	underline 	action	The icon for the underlined text formatting action.
+format-text-strikethrough	strikethrough 	action	The icon for the strikethrough text formatting action.
+go-bottom	arrow-to-bottom 	action	The icon for the go to bottom of a list action.
+go-down	arrow-down 	action	The icon for the go down in a list action.
+go-first	arrow-to-right 	action	The icon for the go to the first item in a list action.
 go-home		action	The icon for the go to home location action.
 go-jump		action	The icon for the jump to action.
-go-last		action	The icon for the go to the last item in a list action.
+go-last	arrow-to-right 	action	The icon for the go to the last item in a list action.
 go-next		action	The icon for the go to the next item in a list action.
 go-previous		action	The icon for the go to the previous item in a list action.
 go-top		action	The icon for the go to the top of a list action.
-go-up		action	The icon for the go up in a list action.
+go-up	arrow-to-top 	action	The icon for the go up in a list action.
 help-about		action	The icon for the About item in the Help menu.
-help-contents		action	The icon for Contents item in the Help menu.
+help-contents	question-square 	action	The icon for Contents item in the Help menu.
 help-faq		action	The icon for the FAQ item in the Help menu.
-insert-image		action	The icon for the insert image action of an application.
-insert-link		action	The icon for the insert link action of an application.
+insert-image	image 	action	The icon for the insert image action of an application.
+insert-link	link 	action	The icon for the insert link action of an application.
 insert-object		action	The icon for the insert object action of an application.
-insert-text		action	The icon for the insert text action of an application.
-list-add		action	The icon for the add to list action.
-list-remove		action	The icon for the remove from list action.
-mail-forward		action	The icon for the forward action of an electronic mail application.
+insert-text	font 	action	The icon for the insert text action of an application.
+list-add	plus 	action	The icon for the add to list action.
+list-remove	minus	action	The icon for the remove from list action.
+mail-forward	arrow-circle-right 	action	The icon for the forward action of an electronic mail application.
 mail-mark-important		action	The icon for the mark as important action of an electronic mail application.
-mail-mark-junk		action	The icon for the mark as junk action of an electronic mail application.
+mail-mark-junk	trash-alt 	action	The icon for the mark as junk action of an electronic mail application.
 mail-mark-notjunk		action	The icon for the mark as not junk action of an electronic mail application.
 mail-mark-read		action	The icon for the mark as read action of an electronic mail application.
 mail-mark-unread		action	The icon for the mark as unread action of an electronic mail application.
 mail-message-new		action	The icon for the compose new mail action of an electronic mail application.
-mail-reply-all		action	The icon for the reply to all action of an electronic mail application.
-mail-reply-sender		action	The icon for the reply to sender action of an electronic mail application.
+mail-reply-all	reply-all 	action	The icon for the reply to all action of an electronic mail application.
+mail-reply-sender	reply 	action	The icon for the reply to sender action of an electronic mail application.
 mail-send		action	The icon for the send action of an electronic mail application.
 mail-send-receive		action	The icon for the send and receive action of an electronic mail application.
 media-eject		action	The icon for the eject action of a media player or file manager.
@@ -81,25 +81,25 @@ object-flip-horizontal		action	The icon for the action to flip an object horizon
 object-flip-vertical		action	The icon for the action to flip an object vertically.
 object-rotate-left		action	The icon for the rotate left action performed on an object.
 object-rotate-right		action	The icon for the rotate rigt action performed on an object.
-process-stop		action	The icon used for the “Stop” action in applications with actions that may take a while to process, such as web page loading in a browser.
-system-lock-screen		action	The icon used for the “Lock Screen” item in the desktop's panel application.
-system-log-out		action	The icon used for the “Log Out” item in the desktop's panel application.
-system-run		action	The icon used for the “Run Application...” item in the desktop's panel application.
-system-search		action	The icon used for the “Search” item in the desktop's panel application.
-system-reboot		action	The icon used for the “Reboot” item in the desktop's panel application.
-system-shutdown		action	The icon used for the “Shutdown” item in the desktop's panel application.
-tools-check-spelling		action	The icon used for the “Check Spelling” item in the application's “Tools” menu.
-view-fullscreen		action	The icon used for the “Fullscreen” item in the application's “View” menu.
-view-refresh		action	The icon used for the “Refresh” item in the application's “View” menu.
+process-stop	stop 	action	The icon used for the Stop action in applications with actions that may take a while to process, such as web page loading in a browser.
+system-lock-screen	lock 	action	The icon used for the Lock Screen item in the desktop's panel application.
+system-log-out	sign-out 	action	The icon used for the Log Out item in the desktop's panel application.
+system-run		action	The icon used for the Run Application... item in the desktop's panel application.
+system-search		action	The icon used for the Search item in the desktop's panel application.
+system-reboot		action	The icon used for the Reboot item in the desktop's panel application.
+system-shutdown		action	The icon used for the Shutdown item in the desktop's panel application.
+tools-check-spelling		action	The icon used for the Check Spelling item in the application's Tools menu.
+view-fullscreen		action	The icon used for the Fullscreen item in the application's View menu.
+view-refresh		action	The icon used for the Refresh item in the application's View menu.
 view-restore		action	The icon used by an application for leaving the fullscreen view, and returning to a normal windowed view.
-view-sort-ascending		action	The icon used for the “Sort Ascending” item in the application's “View” menu, or in a button for changing the sort method for a list.
-view-sort-descending		action	The icon used for the “Sort Descending” item in the application's “View” menu, or in a button for changing the sort method for a list.
-window-close		action	The icon used for the “Close Window” item in the application's “Windows” menu.
-window-new		action	The icon used for the “New Window” item in the application's “Windows” menu.
-zoom-fit-best		action	The icon used for the “Best Fit” item in the application's “View” menu.
-zoom-in		action	The icon used for the “Zoom in” item in the application's “View” menu.
-zoom-original		action	The icon used for the “Original Size” item in the application's “View” menu.
-zoom-out		action	The icon used for the “Zoom Out” item in the application's “View” menu.
+view-sort-ascending		action	The icon used for the Sort Ascending item in the application's View menu, or in a button for changing the sort method for a list.
+view-sort-descending		action	The icon used for the Sort Descending item in the application's View menu, or in a button for changing the sort method for a list.
+window-close		action	The icon used for the Close Window item in the application's Windows menu.
+window-new		action	The icon used for the New Window item in the application's Windows menu.
+zoom-fit-best		action	The icon used for the Best Fit item in the application's View menu.
+zoom-in		action	The icon used for the Zoom in item in the application's View menu.
+zoom-original		action	The icon used for the Original Size item in the application's View menu.
+zoom-out		action	The icon used for the Zoom Out item in the application's View menu.
 process-working		animation	This is the standard spinner animation for web browsers and file managers to show that the location is loading.
 accessories-calculator		application	The icon used for the desktop's calculator accessory program.
 accessories-character-map		application	The icon used for the desktop's international and extended text character accessory program.
@@ -120,25 +120,25 @@ system-software-install		application	The icon used for the desktop's software in
 system-software-update		application	The icon used for the desktop's software updating application.
 utilities-system-monitor		application	The icon used for the desktop's system resource monitor application.
 utilities-terminal		application	The icon used for the desktop's terminal emulation application.
-applications-accessories		category	The icon for the “Accessories” sub-menu of the Programs menu.
-applications-development		category	The icon for the “Programming” sub-menu of the Programs menu.
-applications-engineering		category	The icon for the “Engineering” sub-menu of the Programs menu.
-applications-games		category	The icon for the “Games” sub-menu of the Programs menu.
-applications-graphics		category	The icon for the “Graphics” sub-menu of the Programs menu.
-applications-internet		category	The icon for the “Internet” sub-menu of the Programs menu.
-applications-multimedia		category	The icon for the “Multimedia” sub-menu of the Programs menu.
-applications-office		category	The icon for the “Office” sub-menu of the Programs menu.
-applications-other		category	The icon for the “Other” sub-menu of the Programs menu.
-applications-science		category	The icon for the “Science” sub-menu of the Programs menu.
-applications-system		category	The icon for the “System Tools” sub-menu of the Programs menu.
-applications-utilities		category	The icon for the “Utilities” sub-menu of the Programs menu.
-preferences-desktop		category	The icon for the “Desktop Preferences” category.
-preferences-desktop-peripherals		category	The icon for the “Peripherals” sub-category of the “Desktop Preferences” category.
-preferences-desktop-personal		category	The icon for the “Personal” sub-category of the “Desktop Preferences” category.
-preferences-other		category	The icon for the “Other” preferences category.
-preferences-system		category	The icon for the “System Preferences” category.
-preferences-system-network		category	The icon for the “Network” sub-category of the “System Preferences” category.
-system-help		category	The icon for the “Help” system category.
+applications-accessories		category	The icon for the Accessories sub-menu of the Programs menu.
+applications-development		category	The icon for the Programming sub-menu of the Programs menu.
+applications-engineering		category	The icon for the Engineering sub-menu of the Programs menu.
+applications-games		category	The icon for the Games sub-menu of the Programs menu.
+applications-graphics		category	The icon for the Graphics sub-menu of the Programs menu.
+applications-internet		category	The icon for the Internet sub-menu of the Programs menu.
+applications-multimedia		category	The icon for the Multimedia sub-menu of the Programs menu.
+applications-office		category	The icon for the Office sub-menu of the Programs menu.
+applications-other		category	The icon for the Other sub-menu of the Programs menu.
+applications-science		category	The icon for the Science sub-menu of the Programs menu.
+applications-system		category	The icon for the System Tools sub-menu of the Programs menu.
+applications-utilities		category	The icon for the Utilities sub-menu of the Programs menu.
+preferences-desktop		category	The icon for the Desktop Preferences category.
+preferences-desktop-peripherals		category	The icon for the Peripherals sub-category of the Desktop Preferences category.
+preferences-desktop-personal		category	The icon for the Personal sub-category of the Desktop Preferences category.
+preferences-other		category	The icon for the Other preferences category.
+preferences-system		category	The icon for the System Preferences category.
+preferences-system-network		category	The icon for the Network sub-category of the System Preferences category.
+system-help		category	The icon for the Help system category.
 audio-card		device	The icon used for the audio rendering device.
 audio-input-microphone		device	The icon used for the microphone audio input device.
 battery		device	The icon used for the system battery device.
@@ -218,13 +218,13 @@ x-office-presentation		mime	The icon used for generic presentation file types.
 x-office-spreadsheet		mime	The icon used for generic spreadsheet file types.
 folder		place	The standard folder icon used to represent directories on local filesystems, mail folders, and other hierarchical groups.
 folder-remote		place	The icon used for normal directories on a remote filesystem.
-network-server		place	The icon used for individual host machines under the “Network Servers” place in the file manager.
-network-workgroup		place	The icon for the “Network Servers” place in the desktop's file manager, and workgroups within the network.
+network-server		place	The icon used for individual host machines under the Network Servers place in the file manager.
+network-workgroup		place	The icon for the Network Servers place in the desktop's file manager, and workgroups within the network.
 start-here		place	The icon used by the desktop's main menu for accessing places, applications, and other features.
-user-bookmarks		place	The icon for the user's special “Bookmarks” place.
-user-desktop		place	The icon for the special “Desktop” directory of the user.
-user-home		place	The icon for the special “Home” directory of the user.
-user-trash		place	The icon for the user's “Trash” place in the desktop's file manager.
+user-bookmarks		place	The icon for the user's special Bookmarks place.
+user-desktop		place	The icon for the special Desktop directory of the user.
+user-home		place	The icon for the special Home directory of the user.
+user-trash		place	The icon for the user's Trash place in the desktop's file manager.
 appointment-missed		status	The icon used when an appointment was missed.
 appointment-soon		status	The icon used when an appointment will occur soon.
 audio-volume-high		status	The icon used to indicate high audio volume.
@@ -233,13 +233,13 @@ audio-volume-medium		status	The icon used to indicate medium audio volume.
 audio-volume-muted		status	The icon used to indicate the muted state for audio playback.
 battery-caution		status	The icon used when the battery is below 40%.
 battery-low		status	The icon used when the battery is below 20%.
-dialog-error		status	The icon used when a dialog is opened to explain an error condition to the user.
-dialog-information		status	The icon used when a dialog is opened to give information to the user that may be pertinent to the requested action.
-dialog-password		status	The icon used when a dialog requesting the authentication credentials for a user is opened.
-dialog-question		status	The icon used when a dialog is opened to ask a simple question of the user.
-dialog-warning		status	The icon used when a dialog is opened to warn the user of impending issues with the requested action.
-folder-drag-accept		status	The icon used for a folder while an object is being dragged onto it, that is of a type that the directory can contain.
-folder-open		status	The icon used for folders, while their contents are being displayed within the same window. This icon would normally be shown in a tree or list view, next to the main view of a folder's contents.
+dialog-error	times 	status	The icon used when a dialog is opened to explain an error condition to the user.
+dialog-information	info 	status	The icon used when a dialog is opened to give information to the user that may be pertinent to the requested action.
+dialog-password	key 	status	The icon used when a dialog requesting the authentication credentials for a user is opened.
+dialog-question	question 	status	The icon used when a dialog is opened to ask a simple question of the user.
+dialog-warning	exclamation 	status	The icon used when a dialog is opened to warn the user of impending issues with the requested action.
+folder-drag-accept	check 	status	The icon used for a folder while an object is being dragged onto it, that is of a type that the directory can contain.
+folder-open	folder-open 	status	The icon used for folders, while their contents are being displayed within the same window. This icon would normally be shown in a tree or list view, next to the main view of a folder's contents.
 folder-visiting		status	The icon used for folders, while their contents are being displayed in another window. This icon would typically be used when using multiple windows to navigate the hierarchy, such as in Nautilus's spatial mode.
 image-loading		status	The icon used when another image is being loaded, such as thumnails for larger images in the file manager.
 image-missing		status	The icon used when another image could not be loaded.
@@ -272,13 +272,13 @@ user-available		status	The icon used when a user on a chat network is available 
 user-away		status	The icon used when a user on a chat network is away from their keyboard and the chat program.
 user-idle		status	The icon used when a user on a chat network has not been an active participant in any chats on the network, for an extended period of time.
 user-offline		status	The icon used when a user on a chat network is not available.
-user-trash-full		status	The icon for the user's “Trash” in the desktop's file manager, when there are items in the “Trash” waiting for disposal or recovery.
-weather-clear		status	The icon used while the weather for a region is “clear skies”.
-weather-clear-night		status	The icon used while the weather for a region is “clear skies” during the night.
-weather-few-clouds		status	The icon used while the weather for a region is “partly cloudy”.
-weather-few-clouds-night		status	The icon used while the weather for a region is “partly cloudy” during the night.
-weather-fog		status	The icon used while the weather for a region is “foggy”.
-weather-overcast		status	The icon used while the weather for a region is “overcast”.
+user-trash-full		status	The icon for the user's Trash in the desktop's file manager, when there are items in the Trash waiting for disposal or recovery.
+weather-clear		status	The icon used while the weather for a region is clear skies.
+weather-clear-night		status	The icon used while the weather for a region is clear skies during the night.
+weather-few-clouds		status	The icon used while the weather for a region is partly cloudy.
+weather-few-clouds-night		status	The icon used while the weather for a region is partly cloudy during the night.
+weather-fog		status	The icon used while the weather for a region is foggy.
+weather-overcast		status	The icon used while the weather for a region is overcast.
 weather-severe-alert		status	The icon used while a sever weather alert is in effect for a region.
 weather-showers		status	The icon used while rain showers are occurring in a region.
 weather-showers-scattered		status	The icon used while scattered rain showers are occurring in a region.

@@ -2,6 +2,7 @@
 from os import listdir, makedirs
 from os.path import isfile, join, splitext, exists
 from shutil import copy2
+import io
 
 # parse arguments
 
@@ -18,7 +19,7 @@ mime_map={}
 place_map={}
 status_map={}
 
-with open('mapping.csv', 'r') as f:
+with io.open('mapping.csv', mode='r', encoding="utf-8") as f:
   for line in f:
     data = line.split('\t')
     if data[1] != '' :
@@ -51,14 +52,16 @@ if not exists('icons/QtFontAwsome'):
 
 theme_file = qrc = open('icons/QtFontAwsome/index.theme', 'w')
 theme_file.write("""[Icon Theme]
-Name=QtFontAwsome
-Comment=Qt Bindings for Font Awsome v5.0.8
+[Icon Theme]
+Name = QtFontAwsome
+Comment = Qt Bindings for Font Awsome v5.0.8
 
-Directories=actions
+Directories = actions
 
 [actions]
-Context=Actions
-Type=Scalable
+Size = 512
+Context = Actions
+Type = Scalable
 """)
 theme_file.close()
 
@@ -68,13 +71,14 @@ qrc = open('fa-resources.qrc', 'w')
 qrc.write("<!DOCTYPE RCC>\n")
 qrc.write("<RCC version=\"1.0\">\n")
 
-qrc.write("<qresource prefix=\"icons/QtFontAwsome\">\n")
+qrc.write('<qresource prefix="/">\n')
 qrc.write('    <file>icons/QtFontAwsome/index.theme</file>\n')
+
 # iterate over map, find FA file, set alias, write to file
 # this piece of code, preferes regular icons to solid ones.
 
 for directory in ["regular","solid","brands"]:
-    for i in actions_map.keys():
+    for i in list(actions_map):
         for filename in listdir(directory):
             if splitext(filename)[0] == actions_map[i] :
                 if not exists('icons/QtFontAwsome/actions'):
@@ -82,7 +86,7 @@ for directory in ["regular","solid","brands"]:
                 # copy actual file to corresponding directory
                 newFileName = 'icons/QtFontAwsome/actions/{}.svg'.format(i);
                 copy2(join(directory, filename), newFileName)
-                qrc.write('    <file alias="{}">{}</file>\n'.format(i,join('icons/QtFontAwsome/actions', filename)))
+                qrc.write('    <file>{}</file>\n'.format('icons/QtFontAwsome/actions/'+filename))
                 # delete key from map to prevent duplicated icons between solid and regular
                 del actions_map[i]
                 break;
